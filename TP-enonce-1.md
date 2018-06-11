@@ -25,6 +25,18 @@ Définir le schéma de la base en quelques phrases, avec un exemple d'entrée au
 
 _Note: il faudra un identifiant unique pour chaque article !_
 
+Réponse :
+    La base de donnée contient des documents ayant 4 objets : 
+    -L'identifiant qui est unique pour chaque article comme demandé,
+    -L'auteur et le titre qui sont 2 string classique,
+    -Le contenu qui est aussi un simple string.
+
+Exemple :
+    { _id: 5b1e2d67bc37d513bbe3c776,
+    Auteur: 'Arthur',
+    Titre: 'Le no-SQL',
+    Contenu: 'Lorem Ipsum' }
+
 
 ## Afficher la liste des articles
 
@@ -37,7 +49,7 @@ Quel verbe HTTP utiliser ?
 
 Faire en sorte qu'un article avec l'identifiant unique ID s'affiche à la route `*/post/<ID>*`
 
-## Entrer un article
+## Entrer un article - fait
 
 Créer un formulaire pour taper un article sur la route `*/post/create*`
 Le formulaire devra enclencher une action sur la même route, quel verbe HTTP utiliser?
