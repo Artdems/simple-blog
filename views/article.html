@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title=article.Titre
+    body
+        div
+            a(href="/")
+                button Retour
+            
+            h3=article.Titre
+            br
+            p=article.Contenu
+            br
+            p=article.Auteur
+            br 
+            a(href="/post/del/"+article._id)
+                button supprimé l'article

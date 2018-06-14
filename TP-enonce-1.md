@@ -38,14 +38,14 @@ Exemple :
     Contenu: 'Lorem Ipsum' }
 
 
-## Afficher la liste des articles
+## Afficher la liste des articles - fait
 
 Faire une page web permettant d'afficher la liste des articles. Bonus si la pagination est gérée.
 La page devra s'afficher à la route `*/*`
 
 Quel verbe HTTP utiliser ?
 
-## Afficher un article
+## Afficher un article - fait
 
 Faire en sorte qu'un article avec l'identifiant unique ID s'affiche à la route `*/post/<ID>*`
 
@@ -55,11 +55,11 @@ Créer un formulaire pour taper un article sur la route `*/post/create*`
 Le formulaire devra enclencher une action sur la même route, quel verbe HTTP utiliser?
 
 
-## Supprimer un article
+## Supprimer un article - fait
 
 Ajouter une route `*/post?<ID>>*` pour supprimer un article, quel verbe HTTP utiliser.`
 
-## Permettre la suppression d'un article
+## Permettre la suppression d'un article - fait
 
 Ajouter un lien cliquable en bas de l'article permettant de supprimer l'article.
 

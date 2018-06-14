@@ -14,6 +14,11 @@ app.set('views',  __dirname +  '/views')
 
 var routes = require("./routes");
 
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+
+app.use(bodyParser.json());
 
 MongoClient.connect(url, function(err, client) {
   if(err) throw err;
